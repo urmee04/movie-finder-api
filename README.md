@@ -30,9 +30,9 @@ A RESTful API server that fetches movie information from the OMDb (Open Movie Da
 
 **Test endpoints using a tool like Postman or by visiting the URLs in browser**
 
-- http://localhost:3001/api/search?title=batman
-- http://localhost:3001/api/movies/tt0372784
-
+- http://localhost:3000/api/search?title=batman
+- http://localhost:3000/api/movies/tt0372784
+---
 #### Project Structure
 
 ```bash
