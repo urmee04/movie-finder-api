@@ -25,6 +25,8 @@ const searchMovies = async (req, res) => {
         apikey: OMDB_API_KEY, //api key from environment variables
       },
     });
+    //send the data back to the client
+    res.json(response.data);
   } catch (error) {
     //log the error message to the server console for debugging purposes
     console.error("Error in Fetching Movies:", error.message);
